@@ -223,10 +223,10 @@ footer img {
 }
 .text-1{
   position: absolute;
-z-index: 1110;
-font-weight: bolder;
-right: 18vw;
-bottom: 33vh;
+  z-index: 1110;
+  font-weight: bolder;
+  right: 18vw;
+  bottom: 33vh;
 }
 .text-1 h1 {
   font-size: 50px;
@@ -244,20 +244,20 @@ bottom: 33vh;
 }
 
 .card {
-      position: fixed;
-      background-color: #000;
-      border-radius: 1.3vw;
-      border-color: #FF01FB;
-      border-width: 1.5px;
-      border-style: solid;
-      width: 9vw;
-      height: 14vw;
-      left: 2vw;
-      transition: 2s;
-      margin-top: -35vh;
-      margin-left: 43vh;
-      box-shadow: 0 0 5px #FF00F6;
-      transform: rotate(25deg);
+  position: fixed;
+  background-color: #000;
+  border-radius: 1.3vw;
+  border-color: #FF01FB;
+  border-width: 1.5px;
+  border-style: solid;
+  width: 9vw;
+  height: 14vw;
+  left: 2vw;
+  transition: 2s;
+  margin-top: -35vh;
+  margin-left: 43vh;
+  box-shadow: 0 0 5px #FF00F6;
+  transform: rotate(25deg);
   }
 
 .text-3 p , .text-4 p {
@@ -271,5 +271,98 @@ footer img {
   margin-top: 87vh;
   margin-left: 5vw;
 }
+}
+@media all and (max-width: 500px) {
 
+  .start {
+  width: 53vw;
+  height: 62vw;
+  margin-left: 22.5vw;
+  margin-top: 10vh;
+  }
+  .start  p {
+    font-size: 13px;
+  }
+  .next  p {
+    font-size: 13px;
+  }
+  .lack  p {
+    font-size: 13px;
+  }
+
+  .next , .lack {
+    margin-left: 34vw;
+  }
+  .text-1{
+    position: absolute;
+    z-index: 1110;
+    font-weight: bolder;
+    right: 18vw;
+    bottom: 33vh;
+  }
+  .text-1 h1 {
+    font-size: 50px;
+    margin-left: 6vw;
+    /* right: 20vw; */
+  }
+  .text-2 {
+    left: 61vw;
+    margin-top: 34vh;
+}
+.text-2 p {
+  font-size: 10px;
+  width: 40vw;
+  margin-left: -11vw;
+}
+.text-3 {
+    margin-left: 24vw;
+}
+  .text-4 {
+  transform: rotate(0);
+  position: absolute;
+  top: 9vh;
+  left: 30vw;
+  }
+  .text-4 p {
+    width: 30vw;
+  }
+  .content {
+    height: 100%;
+  }
+
+  .cards_collector {
+    margin-left: 20vw;
+  }
+.text-2 p, .text-3 p, .text-4 p {
+  font-size: 10px;
+}
+  .card {
+    position: fixed;
+    background-color: #000;
+    border-radius: 1.5vw;
+    border-color: #FF01FB;
+    border-width: 0.5px;
+    border-style: solid;
+    width: 12vw;
+    height: 18vw;
+    left: -5vw;
+    transition: 2s;
+    margin-top: -31vh;
+    margin-left: -1vh;
+    box-shadow: 0 0 5px #FF00F6;
+    transform: rotate(50deg);
+    }
+
+  .text-3 p , .text-4 p {
+    font-size: 15px;
+    color: #fff;
+  }
+  .text-3 {
+    margin-left: -13vw;
+  }
+  footer img {
+    margin-top: 90vh;
+    margin-left: 5vw;
+    width: 15vw;
+  }
 }
