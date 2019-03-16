@@ -151,6 +151,7 @@ body {
 
 .text-2 .mini {
   margin-top: 1vw;
+  text-shadow: #EEEE00 0 0 10px, purple 3px 3px 3px;
 }
 
 .mini {
@@ -170,8 +171,8 @@ body {
   z-index: 1110;
   transform: rotate(-90deg);
   position: absolute;
-  top: 50vh;
-  left: 2vw;
+  top: 20vh;
+  left: 8vw;
   opacity: 0;
 }
 
