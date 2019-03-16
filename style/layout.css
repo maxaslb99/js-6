@@ -315,13 +315,14 @@ footer img {
   margin-left: -11vw;
 }
 .text-3 {
-    margin-left: 24vw;
+  margin-left: 2vw;
+  margin-top: 20vw;
 }
   .text-4 {
   transform: rotate(0);
   position: absolute;
-  top: 9vh;
-  left: 30vw;
+  top: 27vh;
+  left: 61vw;
   }
   .text-4 p {
     width: 30vw;
@@ -329,12 +330,15 @@ footer img {
   .content {
     height: 100%;
   }
+.mini2 p {
+    font-size: 8px;
+  }
 
   .cards_collector {
     margin-left: 20vw;
   }
 .text-2 p, .text-3 p, .text-4 p {
-  font-size: 10px;
+  font-size: 9px;
 }
   .card {
     position: fixed;
@@ -354,7 +358,7 @@ footer img {
     }
 
   .text-3 p , .text-4 p {
-    font-size: 15px;
+    font-size: 10px;
     color: #fff;
   }
   .text-3 {
