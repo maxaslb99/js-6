@@ -118,7 +118,6 @@ body {
   position: absolute;
 }
 
-
 .mini p {
   font-size: 10px;
   color: #E3AAE1;
@@ -134,7 +133,7 @@ body {
   z-index: 1110;
   font-weight: bolder;
   right: 3vw;
-  bottom: 6vw;
+  bottom: 2vw;
   opacity: 0;
 }
 

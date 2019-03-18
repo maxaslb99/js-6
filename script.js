@@ -56,7 +56,7 @@ $( ".lack p" ).click(function() {
  })
 
 
- generator = function (start_x, start_y, direction = 1, step = 2, y_step = 150){
+ generator = function (start_x, start_y, direction = 1, step = 3, y_step = 150){
    cards_collector = $( ".cards-collector:first" )
    let height = $(window).height()
    let width = $(window).width()
@@ -85,8 +85,8 @@ $( ".lack p" ).click(function() {
      new_card.delay(delay).fadeIn(0)
 
      if (y < 1150) {
-       delay = delay + 20}
+       delay = delay + 27}
      else {
-       offset = x + direction * Math.sqrt(Math.abs((y * b -c)/a))
+       offset = x + direction * Math.sqrt(Math.abs((y * b - c)/a))
      }
    }}
