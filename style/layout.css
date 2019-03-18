@@ -181,7 +181,7 @@ body {
 
 p {
   font-size: 13px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   font-weight: lighter;
   line-height: 1.5;
 }
@@ -356,6 +356,8 @@ footer img {
 
   .mini2 p {
     font-size: 8px;
+    font-family: 'Lato', sans-serif;
+
   }
 
   .cards_collector {
@@ -365,6 +367,7 @@ footer img {
   .text-2 p, .text-3 p, .text-4 p {
     font-size: 9px;
   }
+
 
   .card {
     position: fixed;
